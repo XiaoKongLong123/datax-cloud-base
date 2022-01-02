@@ -53,11 +53,7 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
     @Autowired
     private DataAuthExceptionEntryPoint exceptionEntryPoint;
 
-    /**
-     * 配置客户端详情服务
-     * @param clients
-     * @throws Exception
-     */
+    
     @Override
     public void configure(ClientDetailsServiceConfigurer clients) throws Exception {
         // 默认数据库的配置
